@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    align-items: center;
+}
+.lg{
+    width: 120px;
+    border-right: solid grey 1px;
+    padding-right: 40px;
+    
+}
+.leftnav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.leftnav a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.btn1{
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#ba0cc5;
+    border-radius: 6px;
+    color: white;
+
+}
+.mid{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(bg.png);
+
+}
+.lets{
+    font-weight: 500;
+    font-size: 70px;
+    width: 50%;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+}
+.buy{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.btn2{
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#ba0cc5;
+    font-size: 25px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-bottom: 178px;
+    color: white;
+}
