@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #777575;
+}
+#pass{
+    margin-bottom: 20px;
+}
