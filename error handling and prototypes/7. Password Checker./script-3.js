@@ -17,11 +17,11 @@ class User {
   }
 }
 const user = new User('john', 'password');
-console.log(user.password); // Output: ********
+console.log(user.password);
 
 user.password = 'newpassword';
-console.log(user.password); // Output: ********
+console.log(user.password);
 
 user.password = 'weak';
-// Output: Invalid password. Password must be at least 8 characters long and contain at least one number and one uppercase letter.
-console.log(user.password); // Output: ********
+
+console.log(user.password); 
