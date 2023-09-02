@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLOG</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>PW Blog Site</h1>
+      <span id="plus" class="fa fa-plus"></span>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+    <form class="form" type="submit" id="form">
+      <div class="cross">
+        <i id="cross" class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <input
+        id="URL"
+        class="URL input"
+        type="text"
+        placeholder="Enter Blog Post URL"
+        required
+      />
+      <input
+        id="title"
+        class="title input"
+        type="text"
+        placeholder="Enter Blog Title"
+        required
+      />
+      <input
+        type="text"
+        class="description input"
+        id="description"
+        placeholder="Enter Blog Description"
+        required
+      />
+      <textarea
+        id="blog"
+        placeholder="Write..."
+        class="blog input"
+        rows="100"
+        cols="50"
+        required
+      ></textarea
+      ><br /><br />
+
+      <button class="add input">Add Blog</button>
+    </form>
+    <div id="container" class="container"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

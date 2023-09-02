@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #0D0529;
+  }
+  
+  .master-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D0529;
+  }
+  .poster{
+    height: 350px;
+    width: 250px;
+  }
+  .movieName{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+  }
+  .watch{
+    background-color: #29b989;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 400;
+    padding: 10px 80px;
+  }
+  .watch:hover{
+    background-color: #d11f58;
+    cursor: pointer;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #0D0529;
+  }
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E2F65;
+    padding:20px 20px ;
+    border: none;
+    border-radius:10px;
+    max-width: fit-content;
+}
+.input{
+    width: 50%;
+    height: 45px;
+    border: none;
+    border-radius: 2px;
+}
+h1{
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
